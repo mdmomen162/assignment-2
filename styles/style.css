@@ -1,0 +1,126 @@
+/* font */
+@@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+
+/* ----------
+header-styles
+------------- */
+.header {
+    max-width: 1920px;
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-left: 228px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding-right: 240px;
+}
+
+li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 862px; */
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    width: 862px;
+    text-align: center;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 50px;
+}
+
+.banner-description {
+    width: 862px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 1440px;
+    padding-bottom: 45px;
+}
+
+/* media quiries */
+@media only screen and (max-width: 412px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0px;
+       
+    }
+    .banner-title{
+        width: 390px;
+        font-size: 30px;
+    }
+    .nav-title{
+        padding: 0px;
+    }
+    .banner-description{
+        width: 80%;
+    }
+    .btn-primary{
+        font-weight: 500;
+        font-size: 16px;
+        width: 115px;
+        height: 48px;
+    }
+    .banner-image{
+        width: 70%;
+    }
+}
