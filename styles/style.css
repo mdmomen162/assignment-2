@@ -14,7 +14,7 @@ body {
 header-styles
 ------------- */
 .header {
-    width: 100%;
+    width: 1920px;
     background-color: rgba(255, 144, 14, 0.1);
     ;
 }
@@ -88,7 +88,7 @@ li {
 }
 
 .banner-image {
-    width: 1200px;
+    width: 1440px;
     padding-bottom: 45px;
 }
 
@@ -123,4 +123,18 @@ li {
     .banner-image{
         width: 70%;
     }
+}
+
+/* main-styles */
+/* list-of-features-section */
+
+.list-details{
+    display: flex;
+    align-items: center;
+    margin: 85px 301px 130px 301px;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
