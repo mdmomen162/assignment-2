@@ -14,7 +14,7 @@ body {
 header-styles
 ------------- */
 .header {
-    max-width: 1920px;
+    width: 1920px;
     background-color: rgba(255, 144, 14, 0.1);
     ;
 }
