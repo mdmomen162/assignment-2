@@ -14,7 +14,7 @@ body {
 header-styles
 ------------- */
 .header {
-    width: 1920px;
+    width: 100%;
     background-color: rgba(255, 144, 14, 0.1);
     ;
 }
@@ -88,7 +88,7 @@ li {
 }
 
 .banner-image {
-    width: 1440px;
+    width: 1200px;
     padding-bottom: 45px;
 }
 
