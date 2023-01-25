@@ -351,7 +351,23 @@ main {
 
 /* --------------------working-section styles -----------------*/
 
-
+.section-heading{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    color: #131313;
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+.section-description{
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    color: #727272;
+    width: 35%;
+    padding-left: 5rem;
+    padding-bottom: 1.5rem;
+}
 .work-item {
     display: flex;
     justify-content: space-evenly;
