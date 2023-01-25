@@ -1,6 +1,11 @@
-/* font */
+/* -------
+  font
+---------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
 
+
+/*-------- body ----------*/
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0px auto;
@@ -27,10 +32,10 @@ nav {
 
 .nav-title {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #131313;
     position: relative;
-    left: 228px;
+    left: 120px;
     top: 50px;
 }
 
@@ -38,8 +43,8 @@ nav ul {
     display: flex;
     gap: 30px;
     position: relative;
-    right: 240px;
-    top: 58px;
+    right: 120px;
+    top: 50px;
 }
 
 li {
@@ -58,7 +63,7 @@ li {
 
 .banner-title {
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3.4rem;
     color: #131313;
     width: 50%;
     text-align: center;
@@ -103,11 +108,16 @@ li {
     width: 80%;
 }
 
-/* media quiries */
+/* -------------media queries for header and banner---------- */
+
+
 @media only screen and (max-width: 412px) {
 
     nav {
         flex-direction: column;
+    }
+    .nav-title{
+        font-size: 2.1rem;
     }
 
     nav ul {
@@ -124,7 +134,7 @@ li {
 
     .banner-title {
         padding-top: 100px;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .nav-title {
@@ -137,12 +147,13 @@ li {
     }
 }
 
-/* main-styles */
+/* -------------------styles for main ---------------------*/
+
 main {
     width: 100%;
 }
 
-/* list-of-features-section */
+/* ---------------styles for list-of-features-section------- */
 
 .list-details {
     display: flex;
@@ -161,12 +172,7 @@ main {
     width: 18vw;
 }
 
-.list-item {
-    /* width: 50%; */
-}
-
 .item-title {
-    /* width: 468px; */
     font-weight: 500;
     font-size: 2.9rem;
     color: #727272;
@@ -193,6 +199,8 @@ main {
     padding-bottom: 32px;
 }
 
+/* --------------media queries for list of features section --------*/
+
 @media screen and (max-width: 412px) {
     .team-image {
         grid-template-columns: repeat(1, 1fr);
@@ -202,17 +210,16 @@ main {
         flex-direction: column;
         margin: 85px 301px 130px 200px;
     }
-
+    .item-title{
+        font-size: 2.5rem;
+    }
     .team-image img {
         width: 60vw;
     }
-
-    .team-image {
-        /* padding-right: 50px; */
-    }
 }
 
-/* feature-style */
+/* -------------------feature-style ------------------*/
+
 .features {
     display: block;
     margin-left: 4rem;
@@ -226,7 +233,7 @@ main {
 .feature-item {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
 .front-container {
@@ -292,11 +299,11 @@ main {
 }
 
 .image-container .btn-secondary {
-    width: 30%;
+    width: 32%;
     height: 15%;
     border-radius: 5px;
     position: relative;
-    top: -80px;
+    top: -95px;
     left: -40px;
     font-weight: 200;
     background: #FF900E;
@@ -320,7 +327,8 @@ main {
     color: white;
 }
 
-/* media quirey for features */
+/*---------------- media queries for features ----------------*/
+
 
 @media screen and (max-width: 412px) {
     .architect-image {
@@ -332,14 +340,18 @@ main {
         margin-right: 5rem;
         margin-left: 2rem;
     }
-
+    .front-title{
+        font-size: 2.6rem;
+    }
     .btn-secondary {
         width: 90%;
         height: 25vw;
     }
 }
 
-/* working-secton styles */
+
+/* --------------------working-section styles -----------------*/
+
 
 .work-item {
     display: flex;
@@ -362,10 +374,11 @@ main {
     padding-top: 2rem;
     
 }
-.work-item .item p:hover {
-    background-color: red; /* Change background color on hover */
-    box-shadow: 0 0 10px #ccc; /* Add a box shadow on hover */
-    transform: rotate(360deg); /* Rotate the div on hover */
+.work-item :hover {
+    background-color: paleturquoise;
+    box-shadow: 0 0 10px #ccc; 
+    transform: rotate(360deg); 
+    border: 3px solid rgba(20, 156, 247, 0.849);
 }
 
 .section-container .item p {
@@ -376,7 +389,9 @@ main {
 
 }
 
-/* working section media-quires */
+/* ----------------working section media-queries---------------- */
+
+
 @media screen and (max-width: 412px) {
     .work-item {
         flex-direction: column;
@@ -391,7 +406,8 @@ main {
     }
 }
 
-/* extra-meaningfull-section-style */
+/*----------------- extra-meaningful-section-style------------- */
+
 
 .project {
     display: flex;
@@ -431,6 +447,9 @@ main {
     padding-top: 1rem;
 }
 
+ /*-------------- media queries for extra section -------------*/
+
+
 @media screen and (max-width: 412px) {
     .project{
         flex-direction: column;
@@ -457,7 +476,9 @@ main {
 
 
 
-/* sponsor-section */
+/* --------------------sponsor-section-style---------------- */
+
+
 .sponsor-details {
     display: flex;
     flex-direction: column;
@@ -498,7 +519,10 @@ main {
     width: 80%;
 }
 
-/* footer-section */
+
+/* ----------------footer-section-style----------------- */
+
+
 .footer-container {
     display: block;
     display: flex;
@@ -512,7 +536,9 @@ main {
     margin-bottom: 8rem;
 }
 
-/* footer-media-quirey */
+/* ------------------footer-media-queries--------------------- */
+
+
 @media screen and (max-width: 412px) {
 
     .footer-container {
