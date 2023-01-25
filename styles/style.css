@@ -64,7 +64,7 @@ li {
     font-weight: 700;
     font-size: 3.4rem;
     color: #131313;
-    width: 50%;
+    width: 40%;
     text-align: center;
     padding-top: 205px;
     display: block;
@@ -298,11 +298,11 @@ main {
 }
 
 .image-container .btn-secondary {
-    width: 32%;
-    height: 15%;
+    width: 30%;
+    height: 18%;
     border-radius: 5px;
     position: relative;
-    top: -95px;
+    top: -100px;
     left: -40px;
     font-weight: 200;
     background: #FF900E;
@@ -312,7 +312,7 @@ main {
 
 .white-deep {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     text-align: center;
     color: #FFFFFF;
@@ -341,6 +341,14 @@ main {
     }
     .front-title{
         font-size: 2.6rem;
+    }
+    .image-container .btn-secondary{
+        width: 50%;
+        height: 18%;
+        top: -3rem;
+    }
+    .white-deep{
+        font-size: 1.5rem;
     }
     .btn-secondary {
         width: 90%;
